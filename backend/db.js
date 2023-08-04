@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const mongoURI = "mongodb://127.0.0.1/inotebook";
+const mongoURI = "mongodb+srv://trithvik:rithvik@taskmanager.y7krray.mongodb.net/?retryWrites=true&w=majority";
 //connecting to mongo using url
 const connectToMongo = async()=>{
     await mongoose.connect(mongoURI);
