@@ -2,7 +2,7 @@ import React from "react";
 import noteContext from "./notecontext";
 import { useState } from "react";
 const NoteState = (props)=>{
-  const host  = "https://taskmanager-flax.vercel.app"
+  const host  = "https://taskmanager-ibut.vercel.app"
     const notesInitial = []
     const [note, setnotes] = useState(notesInitial)
       const getnotes = async(title,description,tag)=>{
