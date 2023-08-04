@@ -31,7 +31,7 @@ const Login = (props) => {
   }
   return (
     <>
-      <h2>Login to continue to iNotebook</h2>
+      <h2>Login to continue to Taskmanager</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
           <label htmlFor = "email" className="form-label">Email address</label>
